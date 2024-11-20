@@ -1,6 +1,5 @@
 Flask
-Flask-CORS
-joblib
+flask-cors
 scikit-learn
-numpy
-gunicorn  # Optional for production
+joblib
+pandas
