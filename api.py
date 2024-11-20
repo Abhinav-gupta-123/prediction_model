@@ -7,8 +7,8 @@ CORS(app)
 
 # Function to load the saved models
 def load_models():
-    scaler = joblib.load(r"C:\Users\abhin\Desktop\PREDICTION\PREDICTION\Gradient Boosting Regressor\scaler.pkl")
-    best_gb = joblib.load(r"C:\Users\abhin\Desktop\PREDICTION\PREDICTION\Gradient Boosting Regressor\best_gb_model.pkl")
+    scaler = joblib.load(r"D:\aiml\prediction_model\scaler.pkl")
+    best_gb = joblib.load(r"D:\aiml\prediction_model\best_gb_model.pkl")
     return scaler, best_gb
 
 # Load models when the server starts
